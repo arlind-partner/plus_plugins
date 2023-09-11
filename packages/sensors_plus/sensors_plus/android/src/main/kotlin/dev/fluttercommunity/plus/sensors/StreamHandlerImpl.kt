@@ -22,7 +22,7 @@ internal class StreamHandlerImpl(
             sensorManager.registerListener(
                 sensorEventListener,
                 sensor,
-                SensorManager.SENSOR_DELAY_NORMAL
+                SensorManager.SENSOR_DELAY_UI
             )
         } else {
             events.error(
